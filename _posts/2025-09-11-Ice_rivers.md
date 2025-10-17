@@ -6,7 +6,7 @@ categories: Physics_in_Everyday_Life
 ---
 
 ## 《聆听冰川 冒险、荒野和生命的故事》
-![Ice_rivers](/assets/images/ICE_RIVERS.jpg)
+![ICE rivers]({{ "/assets/images/ice-rivers.jpg" | relative_url }})
 
 
 ## 伊斯峡湾

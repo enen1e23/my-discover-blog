@@ -6,8 +6,7 @@ categories: Life_Wisdom
 ---
 
 ## 西安市高陵区
-![Water runoff on leaf surface](/assets/images/Water%20runoff%20on%20leaf%20surface.jpg)
-
+![Water runoff on leaf surface]({{ "/assets/images/water-runoff-on-leaf-surface.jpg" | relative_url }})
 
 
 [jekyll-docs]: https://jekyllrb.com/docs/home

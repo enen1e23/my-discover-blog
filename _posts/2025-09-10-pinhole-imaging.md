@@ -6,7 +6,8 @@ categories: Physics_in_Everyday_Life
 ---
 
 ## 太阳
-![Pinhole Imaging Example](/assets/images/Pinhole%20Imaging_sun.jpg)
+![Pinhole Imaging Example]({{ "/assets/images/pinhole-imaging-sun.jpg" | relative_url }})
+
 
 
 

@@ -1,11 +1,22 @@
 ---
 layout: page
-title: Physics_in_Everyday_Life
+title: Physics in Everyday Life
 permalink: /categories/Physics_in_Everyday_Life/
+nav_exclude: true
 ---
-<ul>
+
+📐 生活里的物理小发现：记录我对日常现象的好奇与推导。
+
+---
+
+{% if site.categories.Physics_in_Everyday_Life %}
   {% for post in site.categories.Physics_in_Everyday_Life %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <small> — {{ post.date | date: "%Y-%m-%d" }}</small></li>
+- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%Y-%m-%d" }}
   {% endfor %}
-</ul>
+{% else %}
+*暂无文章，敬请期待~*
+{% endif %}
+
+---
+
+[← 返回分类](/categories/) · [← 返回首页](/)

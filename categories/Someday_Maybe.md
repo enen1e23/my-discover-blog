@@ -1,15 +1,22 @@
 ---
 layout: page
-title: Someday_Maybe
+title: Someday / Maybe
 permalink: /categories/Someday_Maybe/
+nav_exclude: true
 ---
 
-<h2>Someday_Maybe</h2>
-<ul>
+✨ 未来某天想做的事情：灵感、计划与随想清单。
+
+---
+
+{% if site.categories.Someday_Maybe %}
   {% for post in site.categories.Someday_Maybe %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <small> — {{ post.date | date: "%Y-%m-%d" }}</small>
-    </li>
+- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%Y-%m-%d" }}
   {% endfor %}
-</ul>
+{% else %}
+*暂无文章，敬请期待~*
+{% endif %}
+
+---
+
+[← 返回分类](/categories/) · [← 返回首页](/)

@@ -11,7 +11,7 @@ nav_exclude: true
 
 {% if site.categories.Physics_in_Everyday_Life %}
   {% for post in site.categories.Physics_in_Everyday_Life %}
-- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%Y-%m-%d" }}
+- [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%Y-%m-%d" }}
   {% endfor %}
 {% else %}
 *暂无文章，敬请期待~*
@@ -19,4 +19,4 @@ nav_exclude: true
 
 ---
 
-[← 返回分类](/categories/) · [← 返回首页](/)
+[← 返回分类]({{ "/categories/" | relative_url }}) · [← 返回首页]({{ "/" | relative_url }})

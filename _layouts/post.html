@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article class="essay">
+
+  <header class="essay-header">
+
+    <div class="essay-meta">
+      {% if page.categories %}
+        <span class="essay-category">
+          {{ page.categories | first | replace: "_", " " }}
+        </span>
+      {% endif %}
+
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%Y · %m · %d" }}
+      </time>
+    </div>
+
+    <h1>{{ page.title | escape }}</h1>
+
+    {% if page.subtitle %}
+      <p class="essay-subtitle">
+        {{ page.subtitle }}
+      </p>
+    {% endif %}
+
+  </header>
+
+  <div class="essay-content">
+    {{ content }}
+  </div>
+
+  <footer class="essay-end">
+    <span>END</span>
+  </footer>
+
+</article>

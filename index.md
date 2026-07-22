@@ -2,21 +2,94 @@
 layout: home
 ---
 
-欢迎来到 **My Discover Blog** 🎉
+<section class="nd-hero">
+  <p class="nd-kicker">A PERSONAL INDEX OF THINGS NOTICED</p>
 
-这是我记录和分享的小站，包含三个部分：
+  <h1>
+    <span>Nan</span>
+    <em>Discovers</em>
+  </h1>
 
----
+  <p class="nd-intro">
+    物理、生活、城市和书。
+  </p>
+</section>
 
-### 📐 [Physics in Everyday Life]({{ "/categories/Physics_in_Everyday_Life/" | relative_url }})
-生活里的物理小发现：记录我对日常现象的好奇与推导。
+<nav class="nd-categories" aria-label="内容分类">
 
-### 💡 [Life Wisdom]({{ "/categories/Life_Wisdom/" | relative_url }})
-人民群众的智慧：朴素经验、生活方法与点滴启发。
+  <a
+    class="nd-row"
+    href="{{ '/categories/Physics_in_Everyday_Life/' | relative_url }}"
+  >
+    <span class="nd-number">01</span>
 
-### ✨ [Someday / Maybe]({{ "/categories/Someday_Maybe/" | relative_url }})
-未来某天想做的事情：灵感、计划与随想清单。
+    <strong class="nd-title">
+      Physics<br>
+      in Everyday Life
+    </strong>
 
----
+    <span class="nd-description">
+      生活中的物理发现，以及对日常现象的推导。
+    </span>
 
-从上面的分类开始探索，或浏览下方的最新文章 ↓
+    <span class="nd-arrow">↗</span>
+  </a>
+
+  <a
+    class="nd-row"
+    href="{{ '/categories/Life_Wisdom/' | relative_url }}"
+  >
+    <span class="nd-number">02</span>
+
+    <strong class="nd-title">
+      Life<br>
+      Wisdom
+    </strong>
+
+    <span class="nd-description">
+      来自普通生活的经验、方法和点滴启发。
+    </span>
+
+    <span class="nd-arrow">↗</span>
+  </a>
+
+  <a
+    class="nd-row"
+    href="{{ '/categories/Cities/' | relative_url }}"
+  >
+    <span class="nd-number">03</span>
+
+    <strong class="nd-title">
+      Cities
+    </strong>
+
+    <span class="nd-description">
+      我看到的城市。
+    </span>
+
+    <span class="nd-arrow">↗</span>
+  </a>
+
+  <a
+    class="nd-row"
+    href="{{ '/categories/Books/' | relative_url }}"
+  >
+    <span class="nd-number">04</span>
+
+    <strong class="nd-title">
+      Books
+    </strong>
+
+    <span class="nd-description">
+      我觉得值得读的英文书，以及慢慢完成的分节翻译。
+    </span>
+
+    <span class="nd-arrow">↗</span>
+  </a>
+
+</nav>
+
+<div class="nd-recent">
+  <span>RECENT NOTES</span>
+  <span>下方是最近更新的文章 ↓</span>
+</div>

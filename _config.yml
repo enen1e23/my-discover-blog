@@ -1,32 +1,35 @@
 # ==========================================
-# My Discover Blog 配置文件
+# Nan Discovers 配置文件
 # ==========================================
 
 # 网站基本信息
-title: My Discover Blog
-description: 记录生活中的物理发现、朴素智慧与未来灵感。
+title: Nan Discovers
+description: 关于物理、生活、城市和书。
 lang: zh-CN
+timezone: Asia/Shanghai
 
-# 部署地址（GitHub Pages 部署后修改）
-baseurl: "/my-discover-blog"  # 如果是 username.github.io/blog 则填 "/blog"
-url: "https://enen1e23.github.io"      # 如 https://username.github.io
+
+# GitHub Pages 地址
+url: "https://enen1e23.github.io"
+baseurl: "/my-discover-blog"
 
 # 主题与插件
 theme: minima
+
 plugins:
   - jekyll-feed
 
-# ===== 导航栏配置（关键！）=====
-# 只显示这些页面在导航栏
+# 顶部导航栏只显示“关于”
 header_pages:
   - about.md
 
-# 永久链接格式
+# 文章网址格式
 permalink: /:categories/:title/
 
-# 文章默认设置
+# 所有文章默认使用post模板
 defaults:
   - scope:
-      path: "_posts"
+      path: ""
+      type: posts
     values:
       layout: post

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Notes on Living
+title: Life Wisdom
 permalink: /categories/Life_Wisdom/
 ---
 
-普通生活中的经验、方法和点滴发现。
+群众的智慧。
 
 {% assign category_posts = site.categories.Life_Wisdom %}
 

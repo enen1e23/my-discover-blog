@@ -42,12 +42,12 @@ layout: home
     <span class="nd-number">02</span>
 
     <strong class="nd-title">
-      Notes<br>
-      on Living
+      Life<br>
+      Wisdom
     </strong>
 
     <span class="nd-description">
-      普通生活中的经验、方法和点滴发现。
+      群众的智慧。
     </span>
 
     <span class="nd-arrow">↗</span>
@@ -65,8 +65,7 @@ layout: home
     </strong>
 
     <span class="nd-description">
-      看见城市的方法：沿着地铁、河流或街道，慢慢认识一座城市。<br>
-      一个人的小探索：跟着骑行路线出发，去工厂店，寻找城市里的有趣去处。
+      尝试看见城市。
     </span>
 
     <span class="nd-arrow">↗</span>

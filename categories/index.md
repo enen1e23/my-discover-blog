@@ -7,11 +7,11 @@ permalink: /categories/
 ### [Physics in Everyday Life]({{ '/categories/Physics_in_Everyday_Life/' | relative_url }})
 生活中的物理发现、推导、实验与图解。
 
-### [Notes on Living]({{ '/categories/Life_Wisdom/' | relative_url }})
-普通生活中的经验、方法和点滴发现。
+### [Life Wisdom]({{ '/categories/Life_Wisdom/' | relative_url }})
+群众的智慧。
 
 ### [Ways of Seeing a City]({{ '/categories/Cities/' | relative_url }})
-用不同的方法认识城市，也记录一个人的小探索。
+尝试看见城市。
 
 - [认识城市的方法]({{ '/categories/Cities/' | relative_url }}#reading-the-city)
 - [一个人的小探索]({{ '/categories/Cities/' | relative_url }}#small-adventures)

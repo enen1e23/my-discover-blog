@@ -4,15 +4,13 @@ title: Ways of Seeing a City
 permalink: /categories/Cities/
 ---
 
-用不同的方法认识一座城市，也记录一个人在城市里的小探索。
+尝试看见城市。
 
 {% assign category_posts = site.categories.Cities %}
 
 [认识城市的方法](#reading-the-city) · [一个人的小探索](#small-adventures)
 
 <h2 id="reading-the-city">认识城市的方法</h2>
-
-沿着地铁、河流、街道或其他线索，观察城市的结构和变化。
 
 {% assign branch_posts = category_posts | where: "section", "reading-the-city" %}
 {% if branch_posts.size > 0 %}
@@ -26,8 +24,6 @@ permalink: /categories/Cities/
 {% endif %}
 
 <h2 id="small-adventures">一个人的小探索</h2>
-
-跟着别人分享的路线骑行，去工业园里的工厂店，看看商品从哪里出发。把一个发现变成一次出门的起点。
 
 {% assign branch_posts = category_posts | where: "section", "small-adventures" %}
 {% if branch_posts.size > 0 %}

@@ -1,21 +1,23 @@
 ---
 layout: page
-title: Life Wisdom
+title: Notes on Living
 permalink: /categories/Life_Wisdom/
 ---
 
-💡 人民群众的智慧：朴素经验、生活方法与点滴启发。
+普通生活中的经验、方法和点滴发现。
 
----
+{% assign category_posts = site.categories.Life_Wisdom %}
 
-{% if site.categories.Life_Wisdom %}
-{% for post in site.categories.Life_Wisdom %}
-- [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%Y-%m-%d" }}
+{% if category_posts.size > 0 %}
+<ul>
+{% for post in category_posts %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> — <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>
 {% endfor %}
+</ul>
 {% else %}
-*暂无文章，敬请期待~*
+这里还没有文章，慢慢积累。
 {% endif %}
 
 ---
 
-[← 返回首页]({{ "/" | relative_url }})
+[← 全部分类]({{ "/categories/" | relative_url }}) · [返回首页]({{ "/" | relative_url }})

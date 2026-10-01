@@ -4,18 +4,20 @@ title: Physics in Everyday Life
 permalink: /categories/Physics_in_Everyday_Life/
 ---
 
-📐 生活里的物理小发现：记录我对日常现象的好奇与推导。
+生活中的物理发现：观察日常现象，尝试推导、实验与图解。
 
----
+{% assign category_posts = site.categories.Physics_in_Everyday_Life %}
 
-{% if site.categories.Physics_in_Everyday_Life %}
-{% for post in site.categories.Physics_in_Everyday_Life %}
-- [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%Y-%m-%d" }}
+{% if category_posts.size > 0 %}
+<ul>
+{% for post in category_posts %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> — <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>
 {% endfor %}
+</ul>
 {% else %}
-*暂无文章，敬请期待~*
+这里还没有文章，慢慢积累。
 {% endif %}
 
 ---
 
-[← 返回首页]({{ "/" | relative_url }})
+[← 全部分类]({{ "/categories/" | relative_url }}) · [返回首页]({{ "/" | relative_url }})

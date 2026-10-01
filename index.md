@@ -11,7 +11,7 @@ layout: home
   </h1>
 
   <p class="nd-intro">
-    物理、生活、城市和书。
+    从日常现象、普通生活、城市探索和阅读中，慢慢认识世界。
   </p>
 </section>
 
@@ -29,7 +29,7 @@ layout: home
     </strong>
 
     <span class="nd-description">
-      生活中的物理发现，以及对日常现象的推导。
+      生活中的物理发现：观察日常现象，尝试推导、实验与图解。
     </span>
 
     <span class="nd-arrow">↗</span>
@@ -42,12 +42,12 @@ layout: home
     <span class="nd-number">02</span>
 
     <strong class="nd-title">
-      Life<br>
-      Wisdom
+      Notes<br>
+      on Living
     </strong>
 
     <span class="nd-description">
-      来自普通生活的经验、方法和点滴启发。
+      普通生活中的经验、方法和点滴发现。
     </span>
 
     <span class="nd-arrow">↗</span>
@@ -60,11 +60,13 @@ layout: home
     <span class="nd-number">03</span>
 
     <strong class="nd-title">
-      Cities
+      Ways of Seeing<br>
+      a City
     </strong>
 
     <span class="nd-description">
-      我看到的城市。
+      看见城市的方法：沿着地铁、河流或街道，慢慢认识一座城市。<br>
+      一个人的小探索：跟着骑行路线出发，去工厂店，寻找城市里的有趣去处。
     </span>
 
     <span class="nd-arrow">↗</span>
@@ -77,11 +79,12 @@ layout: home
     <span class="nd-number">04</span>
 
     <strong class="nd-title">
-      Books
+      Reading
     </strong>
 
     <span class="nd-description">
-      我觉得值得读的英文书，以及慢慢完成的分节翻译。
+      单本阅读：我读过、愿意推荐的书，以及阅读中的思考。<br>
+      主题阅读：围绕一个问题整理书单，把不同的书联系起来，持续补充。
     </span>
 
     <span class="nd-arrow">↗</span>

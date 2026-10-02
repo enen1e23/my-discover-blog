@@ -8,7 +8,7 @@ permalink: /categories/Cities/
 
 {% assign category_posts = site.categories.Cities %}
 
-[认识城市的方法](#reading-the-city) · [一个人的小探索](#small-adventures)
+[认识城市的方法](#reading-the-city) · [在城市里生活](#small-adventures)
 
 <h2 id="reading-the-city">认识城市的方法</h2>
 
@@ -23,7 +23,7 @@ permalink: /categories/Cities/
 这里还没有文章，慢慢积累。
 {% endif %}
 
-<h2 id="small-adventures">一个人的小探索</h2>
+<h2 id="small-adventures">在城市里生活</h2>
 
 {% assign branch_posts = category_posts | where: "section", "small-adventures" %}
 {% if branch_posts.size > 0 %}

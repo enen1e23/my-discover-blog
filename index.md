@@ -144,7 +144,6 @@ layout: home
 <section class="nd-hero">
   <p class="nd-kicker">A PERSONAL INDEX OF THINGS NOTICED</p>
   <h1><span>Nan</span><em>Discovers</em></h1>
-  <p class="nd-intro">把喜欢的事情记在这里。没什么力气的时候，偶然翻到，又觉得开心，也有了些力量。</p>
 </section>
 
 <nav class="nd-categories" aria-label="内容分类">

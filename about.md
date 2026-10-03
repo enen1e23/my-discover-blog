@@ -4,23 +4,103 @@ title: 关于
 permalink: /about/
 ---
 
-## 关于这个博客
+<style>
+.about-content {
+  max-width: 700px;
+  color: #292825;
+  font-size: 18px;
+  line-height: 1.95;
+}
 
-**My Discover Blog** 是我的个人发现博客，记录三类内容：
+.about-content section {
+  margin: 0 0 42px;
+}
 
-- **Physics in Everyday Life** — 生活中的物理现象与思考
-- **Life Wisdom** — 朴素但实用的生活智慧
-- **Someday / Maybe** — 灵感与未来计划
+.about-content h2 {
+  margin: 0 0 18px;
+  padding: 0;
+  border: 0;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
 
-## 关于我
+.about-content p {
+  margin: 0 0 18px;
+}
 
-输出很快乐，分享很快乐,这里也是自己收集的空间，yeah
+.about-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-## 联系方式
+.about-content li {
+  margin: 0;
+  padding: 12px 0;
+  border-bottom: 1px solid #ded9cf;
+}
 
-- GitHub: [enen1e23](https://github.com/enen1e23)
-- Email: n3892885@gmail.com
+.about-content li strong {
+  font-weight: 600;
+}
 
----
+.about-content a {
+  overflow-wrap: anywhere;
+  text-underline-offset: 4px;
+}
 
-[← 返回首页](/)
+.about-content .about-contact p {
+  margin: 0 0 8px;
+}
+
+.about-content .about-back {
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 1px solid #c9c5bc;
+  font-size: 16px;
+}
+
+@media (max-width: 700px) {
+  .about-content {
+    font-size: 17px;
+  }
+
+  .about-content h2 {
+    font-size: 22px;
+  }
+
+  .about-content section {
+    margin-bottom: 34px;
+  }
+}
+</style>
+
+<div class="about-content">
+  <section>
+    <h2>关于这个博客</h2>
+    <p><strong>My Discover Blog</strong> 是我的个人发现博客，记录四类内容：</p>
+    <ul>
+      <li><strong>Physics in Everyday Life</strong> — 生活中的物理现象与思考</li>
+      <li><strong>Life Wisdom</strong> — 朴素但实用的生活智慧</li>
+      <li><strong>Cities</strong> — 在生活中认识城市</li>
+      <li><strong>Books</strong> — 喜欢阅读，把自己放在不同的空间里</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>关于我</h2>
+    <p>把喜欢的事情记在这里。没什么力气的时候，偶然翻到，又觉得开心，也有了些力量。</p>
+  </section>
+
+  <section class="about-contact">
+    <h2>联系方式</h2>
+    <p>GitHub: <a href="https://github.com/enen1e23">enen1e23</a></p>
+    <p>Email: <a href="mailto:1075884655@qq.com">1075884655@qq.com</a>; <a href="mailto:n3892885@gmail.com">n3892885@gmail.com</a></p>
+  </section>
+
+  <p class="about-back">
+    <a href="{{ '/' | relative_url }}">← 返回首页</a>
+  </p>
+</div>

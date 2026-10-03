@@ -24,6 +24,7 @@ layout: home
 }
 #nan-home .nd-hero h1 {
   margin: 0;
+ 
   font-size: clamp(56px, 7.5vw, 86px);
   line-height: .98;
   letter-spacing: -.055em;
@@ -142,7 +143,7 @@ layout: home
 
 <div id="nan-home">
 <section class="nd-hero">
-  <p class="nd-kicker">A PERSONAL INDEX OF THINGS NOTICED</p>
+
   <h1><span>Nan</span><em>Discovers</em></h1>
 </section>
 

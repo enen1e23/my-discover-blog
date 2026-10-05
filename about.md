@@ -97,7 +97,7 @@ permalink: /about/
   <section class="about-contact">
     <h2>联系方式</h2>
     <p>GitHub: <a href="https://github.com/enen1e23">enen1e23</a></p>
-    <p>Email: <a href="mailto:1075884655@qq.com">1075884655@qq.com</a>; <a href="mailto:n3892885@gmail.com">n3892885@gmail.com</a></p>
+    <p>Email:  <a href="mailto:n3892885@gmail.com">n3892885@gmail.com</a></p>
   </section>
 
   <p class="about-back">

@@ -4,7 +4,7 @@ title: Physics in Everyday Life
 permalink: /categories/Physics_in_Everyday_Life/
 ---
 
-生活中的物理发现：观察日常现象，尝试推导、实验与图解。
+生活中的物理发现
 
 {% assign category_posts = site.categories.Physics_in_Everyday_Life %}
 

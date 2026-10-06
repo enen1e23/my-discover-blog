@@ -10,6 +10,8 @@ permalink: /categories/Cities/
 
 [认识城市的方法](#reading-the-city) · [在城市里生活](#small-adventures)
 
+[建筑 →]({{ '/categories/Cities/architecture/' | relative_url }})
+
 <h2 id="reading-the-city">认识城市的方法</h2>
 
 {% assign branch_posts = category_posts | where: "section", "reading-the-city" %}

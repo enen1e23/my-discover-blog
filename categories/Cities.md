@@ -5,6 +5,12 @@ permalink: /categories/Cities/
 ---
 
 <style>
+.city-topics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 18px;
+  margin: 22px 0 42px;
+}
 .city-topic-link,
 .city-topic-link:visited {
   display: flex;
@@ -12,8 +18,8 @@ permalink: /categories/Cities/
   justify-content: space-between;
   gap: 24px;
   box-sizing: border-box;
-  max-width: 520px;
-  margin: 22px 0 42px;
+  max-width: none;
+  margin: 0;
   padding: 24px 28px;
   border: 1px solid #c9c5bc;
   background: #eeeadf;
@@ -47,10 +53,16 @@ permalink: /categories/Cities/
 
 <h2 id="reading-the-city">认识城市的方法</h2>
 
+<div class="city-topics">
 <a class="city-topic-link" href="{{ '/categories/Cities/architecture/' | relative_url }}">
   <span>建筑</span>
   <span class="topic-arrow" aria-hidden="true">→</span>
 </a>
+<a class="city-topic-link" href="{{ '/categories/Cities/city-memory/' | relative_url }}">
+  <span>城市怎样记住自己</span>
+  <span class="topic-arrow" aria-hidden="true">→</span>
+</a>
+</div>
 
 
 <h2 id="small-adventures">在城市里生活</h2>

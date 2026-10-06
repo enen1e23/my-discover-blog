@@ -10,20 +10,12 @@ permalink: /categories/Cities/
 
 [认识城市的方法](#reading-the-city) · [在城市里生活](#small-adventures)
 
-[建筑 →]({{ '/categories/Cities/architecture/' | relative_url }})
+
 
 <h2 id="reading-the-city">认识城市的方法</h2>
 
-{% assign branch_posts = category_posts | where: "section", "reading-the-city" %}
-{% if branch_posts.size > 0 %}
-<ul>
-{% for post in branch_posts %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> — <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>
-{% endfor %}
-</ul>
-{% else %}
-这里还没有文章，慢慢积累。
-{% endif %}
+[建筑 →]({{ '/categories/Cities/architecture/' | relative_url }})
+
 
 <h2 id="small-adventures">在城市里生活</h2>
 

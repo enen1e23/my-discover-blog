@@ -4,6 +4,39 @@ title: Ways of Seeing a City
 permalink: /categories/Cities/
 ---
 
+<style>
+.city-topic-link,
+.city-topic-link:visited {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  box-sizing: border-box;
+  max-width: 520px;
+  margin: 22px 0 42px;
+  padding: 24px 28px;
+  border: 1px solid #c9c5bc;
+  background: #eeeadf;
+  color: #171717;
+  font-size: 24px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.city-topic-link:hover {
+  background: #e5dfd2;
+  color: #171717;
+  text-decoration: none;
+}
+.city-topic-link:focus-visible {
+  outline: 2px solid #e04b24;
+  outline-offset: 4px;
+}
+.city-topic-link .topic-arrow { color: #e04b24; }
+@media (max-width: 700px) {
+  .city-topic-link { padding: 20px; font-size: 22px; }
+}
+</style>
+
 尝试看见城市。
 
 {% assign category_posts = site.categories.Cities %}
@@ -14,7 +47,10 @@ permalink: /categories/Cities/
 
 <h2 id="reading-the-city">认识城市的方法</h2>
 
-[建筑 →]({{ '/categories/Cities/architecture/' | relative_url }})
+<a class="city-topic-link" href="{{ '/categories/Cities/architecture/' | relative_url }}">
+  <span>建筑</span>
+  <span class="topic-arrow" aria-hidden="true">→</span>
+</a>
 
 
 <h2 id="small-adventures">在城市里生活</h2>

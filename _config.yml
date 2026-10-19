@@ -4,7 +4,8 @@
 
 # 网站基本信息
 title: Nan Discovers
-description: 关于物理、生活、城市和书。
+description: 记录生活中的物理现象、城市观察、群众的智慧和阅读笔记。
+locale: zh_CN
 lang: zh-CN
 timezone: Asia/Shanghai
 
@@ -18,6 +19,8 @@ theme: minima
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # 顶部导航栏只显示“关于”
 header_pages:

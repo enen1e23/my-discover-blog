@@ -19,10 +19,20 @@ layout: default
   <header class="essay-header">
 
     <div class="essay-meta">
-      {% if page.categories %}
-        <span class="essay-category">
-          {{ page.categories | first | replace: "_", " " }}
-        </span>
+      {% assign category_key = page.categories | first %}
+      {% assign category_label = category_key | replace: "_", " " %}
+      {% case category_key %}
+        {% when 'Physics_in_Everyday_Life' %}{% assign category_label = '生活中的物理发现' %}
+        {% when 'Life_Wisdom' %}{% assign category_label = '群众的智慧' %}
+        {% when 'Cities' %}{% assign category_label = '看见城市' %}
+        {% when 'Books' %}{% assign category_label = '阅读' %}
+        {% when 'architecture' %}{% assign category_label = '建筑' %}
+      {% endcase %}
+      {% if category_key %}
+        <a class="essay-category" href="{{ '/categories/' | append: category_key | append: '/' | relative_url }}">
+          <span class="essay-category-zh">{{ category_label }}</span>
+          <span class="essay-category-en">{{ category_key | replace: "_", " " }}</span>
+        </a>
       {% endif %}
 
       <time datetime="{{ page.date | date_to_xmlschema }}">

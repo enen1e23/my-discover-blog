@@ -117,6 +117,18 @@ layout: home
   font-size: 15px;
   letter-spacing: 0;
 }
+#nan-home .nd-feed-link,
+#nan-home .nd-feed-link:visited {
+  display: inline-block;
+  margin-left: 16px;
+  color: #245f7a;
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+#nan-home .nd-feed-link:hover {
+  color: #e04b24;
+}
 @media (max-width: 760px) {
   #nan-home .nd-hero { grid-template-columns: 1fr; gap: 0; padding: 20px 0 34px; }
   #nan-home .nd-kicker { margin-bottom: 26px; font-size: 10px; }
@@ -176,6 +188,6 @@ layout: home
 
 <div class="nd-recent">
   <span>RECENT NOTES</span>
-  <span>下方是最近更新的文章 ↓</span>
+  <span>下方是最近更新的文章 ↓ <a class="nd-feed-link" href="{{ '/feed.xml' | relative_url }}" type="application/rss+xml" title="用 RSS 阅读器订阅新文章">订阅更新 (RSS) ↗</a></span>
 </div>
 </div>

@@ -1,5 +1,5 @@
 ---
-layout: rainbow-article-v4
+layout: rainbow-article-v5
 title: "理解彩虹的形状"
 date: 2026-07-21
 categories: [Physics_in_Everyday_Life]

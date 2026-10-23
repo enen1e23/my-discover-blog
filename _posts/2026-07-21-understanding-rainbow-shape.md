@@ -126,7 +126,7 @@ button,input{font:inherit}:focus-visible{outline:2px solid var(--accent);outline
 </div>
 <main>
 <section class="hero" aria-labelledby="main-title"><div class="hero-meta"><div class="category-card"><strong>生活中的物理发现</strong><span>Physics in Everyday Life</span></div><div class="hero-date">2026 · 07 · 21</div></div>
-<div class="eyebrow">生活中的物理 · 观察笔记</div>
+
 <h1 id="main-title"><span class="rainbowword">彩虹</span><span class="title-rest">为什么是弯的？</span></h1>
 <p class="hero-intro">雨后，天空里有时能看到一段很整齐的圆弧。水滴并没有排成弧线，但不同颜色的光却沿着弧线出现。</p>
 </section>
